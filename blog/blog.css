@@ -994,3 +994,8 @@ box-shadow:0 15px 35px rgba(0,0,0,.25);
 /* site resets lists globally; restore bullets inside blog articles */
 .nk-blog ul{list-style:disc;}
 .nk-blog ol{list-style:decimal;}
+.nk-figure{margin:22px 0 26px;}
+.nk-figure img{width:100%;height:auto;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.12);}
+.nk-figure figcaption{font-size:14px;opacity:.75;text-align:center;margin-top:8px;}
+.nk-card-img{display:block;margin:-24px -24px 18px;}
+.nk-card-img img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:14px 14px 0 0;}
